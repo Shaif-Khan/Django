@@ -1,0 +1,58 @@
+{% extends "base.html" %}
+
+{% block title %}
+
+Bookstore - Books
+
+{% endblock  %}
+
+{% block nav_title %}
+
+-: Django Programming Books App :-
+
+{% endblock  %}
+
+{% block content %}
+
+<div>
+
+
+  
+  <div class ='grid grid-cols-4 gap-4 mt-10'>
+  {% for book in book_list %}
+
+  <a href="{% url 'book.show' book.id %}" 
+  class="justify-self-center text-center my-4"
+  target="_blank">
+
+  <div class="flex justify-center">
+  <img src="{{book.image.url}}" width="200"/>
+  </div>
+  <p class="text-lg text-gray-700"><p>{{book.title}}</p>
+</a>
+  {% endfor %}
+  </div>
+</div>
+  {% endblock  %}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
