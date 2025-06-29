@@ -1,3 +1,4 @@
+<img src="https://images.velog.io/images/sawol/post/5505b16a-9281-4fef-b4e9-e5b40bd5c445/django.gif">
 📚 I BUILT A FULL-FEATURED BOOK WEB APP USING DJANGO + MS SQL SERVER!
 
 Hello connections! 👋
